@@ -3,10 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border-radius: 25px;
 }
 body{
-    width: 1200px;
-    margin: 0 auto;
     margin-bottom: 50px;
 }
 
@@ -19,23 +18,33 @@ body{
 /* structure */
 .container{
     width: 1200px;
-    display: inline-block;
     margin-top: 20px;
     margin-bottom: 20px;
-}
-.container.clearfix{
-    margin-top: 0;
+    margin: 0 auto;
 }
 
 .page-header{
     width: 100%;
+    margin-bottom: 30px;
 }
-
+/* spotlight */
 .spotlight{
     width: 100%;
+    background-image: url(../img/banner.jpg);
     height: 500px;
-    background-color: #e1d67a;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    margin-bottom: 50px;
+}
 
+.spotlight-content{
+    height: 30px;
+    width: 500px;
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
 }
 .header-box{
     width: 100%;
