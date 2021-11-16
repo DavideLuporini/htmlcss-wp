@@ -37,8 +37,7 @@ body{
 }
 /* spotlight */
 .spotlight{
-    width: 100%;
-    background-image: url(../img/banner.jpg);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)) , url(../img/banner.jpg);
     height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -46,7 +45,7 @@ body{
     position: relative;
     margin-bottom: 50px;
     border-radius: 25px;
-
+    backdrop-filter: gray;
 }
 
 .spotlight-content{
@@ -104,13 +103,13 @@ ul{
 }
 
 #col-right{
-    background-image: url(../img/img-3.jpg);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)) , url(../img/img-3.jpg);
 }
 #col-mid{
-    background-image: url(../img/banner-2.jpg);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)) , url(../img/banner-2.jpg);
 }
 #col-left{
-    background-image: url(../img/img-1.jpg);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)) , url(../img/img-1.jpg);
 }
 
 
